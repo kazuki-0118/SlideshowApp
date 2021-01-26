@@ -11,20 +11,12 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="gazou" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SlideshowApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zFi-Ow-T2Z">
-                                <rect key="frame" x="98" y="144" width="240" height="189"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="YPX-RG-Ejd" appends="YES" id="35F-r2-IA6"/>
-                                </connections>
-                            </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="85" translatesAutoresizingMaskIntoConstraints="NO" id="UwT-kt-hrs">
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="85" translatesAutoresizingMaskIntoConstraints="NO" id="UwT-kt-hrs">
                                 <rect key="frame" x="58" y="732" width="298" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jcu-lD-Nuy">
@@ -50,11 +42,25 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gazou1" translatesAutoresizingMaskIntoConstraints="NO" id="zFi-Ow-T2Z">
+                                <rect key="frame" x="157" y="144" width="100" height="100"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="K5S-9g-mR8"/>
+                                    <constraint firstAttribute="width" constant="100" id="njf-eV-5LL"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="YPX-RG-Ejd" appends="YES" id="35F-r2-IA6"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="UwT-kt-hrs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7SD-nK-ZDM"/>
+                            <constraint firstItem="zFi-Ow-T2Z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="AEK-P9-qGk"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UwT-kt-hrs" secondAttribute="bottom" constant="100" id="LCH-wb-EkW"/>
+                            <constraint firstItem="zFi-Ow-T2Z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ay7-sl-lFa"/>
                         </constraints>
                     </view>
                     <connections>
@@ -77,18 +83,16 @@
         <!--Result View Controller-->
         <scene sceneID="6os-hQ-Dy9">
             <objects>
-                <viewController id="Jx4-wg-cXn" customClass="ResultViewController" customModule="gazou" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Jx4-wg-cXn" customClass="ResultViewController" customModule="SlideshowApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Poh-wi-NIg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ywD-PO-66a">
-                                <rect key="frame" x="20" y="58" width="374" height="278"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ywD-PO-66a">
+                                <rect key="frame" x="2" y="5" width="410" height="665"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2tT-Xh-INs">
-                                <rect key="frame" x="192" y="405" width="31" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2tT-Xh-INs">
+                                <rect key="frame" x="191.5" y="678" width="31" height="30"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
                                     <segue destination="0J9-yE-Yve" kind="unwind" unwindAction="unwind:" id="XAv-D0-2Io"/>
@@ -97,6 +101,14 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8sd-hO-l5x"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ywD-PO-66a" firstAttribute="top" secondItem="8sd-hO-l5x" secondAttribute="top" constant="5" id="1v7-aW-i7e"/>
+                            <constraint firstItem="2tT-Xh-INs" firstAttribute="centerX" secondItem="Poh-wi-NIg" secondAttribute="centerX" id="4RC-ws-cgB"/>
+                            <constraint firstItem="8sd-hO-l5x" firstAttribute="bottom" secondItem="2tT-Xh-INs" secondAttribute="bottom" constant="100" id="ZEf-dw-cok"/>
+                            <constraint firstItem="8sd-hO-l5x" firstAttribute="trailing" secondItem="ywD-PO-66a" secondAttribute="trailing" constant="2" id="bcP-gP-4P1"/>
+                            <constraint firstItem="2tT-Xh-INs" firstAttribute="top" secondItem="ywD-PO-66a" secondAttribute="bottom" constant="8" symbolic="YES" id="h00-4o-Ozz"/>
+                            <constraint firstItem="ywD-PO-66a" firstAttribute="leading" secondItem="8sd-hO-l5x" secondAttribute="leading" constant="2" id="lpu-X2-LCm"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="kUO-Y2-Jcy"/>
                     <connections>
@@ -110,6 +122,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="gazou1" width="279" height="300"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

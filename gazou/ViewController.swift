@@ -10,6 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     @IBAction func onTapImage(_ sender: Any) {
         performSegue(withIdentifier:"result", sender: nil)
+        if (timer != nil){
+            timer.invalidate()}
     }
     @IBOutlet weak var startButton: UIButton!
     @IBOutlet weak var imageView: UIImageView!
@@ -33,6 +35,7 @@ class ViewController: UIViewController {
     let resultViewController:ResultViewController = segue.destination as! ResultViewController
         resultViewController.nowIndex2 = nowIndex
     }
+    
     @IBAction func slideShowButton(_ sender: Any) {
     if (timer == nil){
                 timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(changeImage), userInfo: nil, repeats: true)

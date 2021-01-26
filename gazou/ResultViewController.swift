@@ -21,6 +21,7 @@ class ResultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     kakudai.image = imageArray[nowIndex2]
+        
         // Do any additional setup after loading the view.
     }
     

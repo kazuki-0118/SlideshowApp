@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		D466B9CE25B85D630058B0A3 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
-		D46B8A5225B5CB0D0038C9BB /* gazou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gazou.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46B8A5225B5CB0D0038C9BB /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D46B8A5525B5CB0D0038C9BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D46B8A5725B5CB0D0038C9BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D46B8A5925B5CB0D0038C9BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		D46B8A5325B5CB0D0038C9BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D46B8A5225B5CB0D0038C9BB /* gazou.app */,
+				D46B8A5225B5CB0D0038C9BB /* SlideshowApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D46B8A5125B5CB0D0038C9BB /* gazou */ = {
+		D46B8A5125B5CB0D0038C9BB /* SlideshowApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D46B8A6625B5CB0E0038C9BB /* Build configuration list for PBXNativeTarget "gazou" */;
+			buildConfigurationList = D46B8A6625B5CB0E0038C9BB /* Build configuration list for PBXNativeTarget "SlideshowApp" */;
 			buildPhases = (
 				D46B8A4E25B5CB0D0038C9BB /* Sources */,
 				D46B8A4F25B5CB0D0038C9BB /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = gazou;
+			name = SlideshowApp;
 			productName = gazou;
-			productReference = D46B8A5225B5CB0D0038C9BB /* gazou.app */;
+			productReference = D46B8A5225B5CB0D0038C9BB /* SlideshowApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D46B8A4D25B5CB0D0038C9BB /* Build configuration list for PBXProject "gazou" */;
+			buildConfigurationList = D46B8A4D25B5CB0D0038C9BB /* Build configuration list for PBXProject "SlideshowApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D46B8A5125B5CB0D0038C9BB /* gazou */,
+				D46B8A5125B5CB0D0038C9BB /* SlideshowApp */,
 			);
 		};
 /* End PBXProject section */
@@ -326,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D46B8A4D25B5CB0D0038C9BB /* Build configuration list for PBXProject "gazou" */ = {
+		D46B8A4D25B5CB0D0038C9BB /* Build configuration list for PBXProject "SlideshowApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D46B8A6425B5CB0E0038C9BB /* Debug */,
@@ -335,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D46B8A6625B5CB0E0038C9BB /* Build configuration list for PBXNativeTarget "gazou" */ = {
+		D46B8A6625B5CB0E0038C9BB /* Build configuration list for PBXNativeTarget "SlideshowApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D46B8A6725B5CB0E0038C9BB /* Debug */,

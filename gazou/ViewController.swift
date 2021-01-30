@@ -12,6 +12,10 @@ class ViewController: UIViewController {
         performSegue(withIdentifier:"result", sender: nil)
         if (timer != nil){
             timer.invalidate()}
+        timer = nil
+        startButton.setTitle("再生", for: .normal)
+        susumuButton.isEnabled = true
+        modoruButton.isEnabled = true
     }
     @IBOutlet weak var startButton: UIButton!
     @IBOutlet weak var imageView: UIImageView!

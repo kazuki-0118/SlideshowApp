@@ -14,6 +14,10 @@
 		D46B8A5D25B5CB0D0038C9BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46B8A5B25B5CB0D0038C9BB /* Main.storyboard */; };
 		D46B8A5F25B5CB0E0038C9BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D46B8A5E25B5CB0E0038C9BB /* Assets.xcassets */; };
 		D46B8A6225B5CB0E0038C9BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46B8A6025B5CB0E0038C9BB /* LaunchScreen.storyboard */; };
+		D498A20725C504F700C7EA3B /* gazou2.png in Resources */ = {isa = PBXBuildFile; fileRef = D498A20325C504F700C7EA3B /* gazou2.png */; };
+		D498A20825C504F700C7EA3B /* gazou4.png in Resources */ = {isa = PBXBuildFile; fileRef = D498A20425C504F700C7EA3B /* gazou4.png */; };
+		D498A20925C504F700C7EA3B /* gazou3.png in Resources */ = {isa = PBXBuildFile; fileRef = D498A20525C504F700C7EA3B /* gazou3.png */; };
+		D498A20A25C504F700C7EA3B /* gazou1.png in Resources */ = {isa = PBXBuildFile; fileRef = D498A20625C504F700C7EA3B /* gazou1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		D46B8A5E25B5CB0E0038C9BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D46B8A6125B5CB0E0038C9BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D46B8A6325B5CB0E0038C9BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D498A20325C504F700C7EA3B /* gazou2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gazou2.png; sourceTree = "<group>"; };
+		D498A20425C504F700C7EA3B /* gazou4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gazou4.png; sourceTree = "<group>"; };
+		D498A20525C504F700C7EA3B /* gazou3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gazou3.png; sourceTree = "<group>"; };
+		D498A20625C504F700C7EA3B /* gazou1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gazou1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,10 @@
 				D466B9CE25B85D630058B0A3 /* ResultViewController.swift */,
 				D46B8A5B25B5CB0D0038C9BB /* Main.storyboard */,
 				D46B8A5E25B5CB0E0038C9BB /* Assets.xcassets */,
+				D498A20625C504F700C7EA3B /* gazou1.png */,
+				D498A20325C504F700C7EA3B /* gazou2.png */,
+				D498A20525C504F700C7EA3B /* gazou3.png */,
+				D498A20425C504F700C7EA3B /* gazou4.png */,
 				D46B8A6025B5CB0E0038C9BB /* LaunchScreen.storyboard */,
 				D46B8A6325B5CB0E0038C9BB /* Info.plist */,
 			);
@@ -128,7 +140,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D46B8A6225B5CB0E0038C9BB /* LaunchScreen.storyboard in Resources */,
+				D498A20A25C504F700C7EA3B /* gazou1.png in Resources */,
+				D498A20725C504F700C7EA3B /* gazou2.png in Resources */,
+				D498A20825C504F700C7EA3B /* gazou4.png in Resources */,
 				D46B8A5F25B5CB0E0038C9BB /* Assets.xcassets in Resources */,
+				D498A20925C504F700C7EA3B /* gazou3.png in Resources */,
 				D46B8A5D25B5CB0D0038C9BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
